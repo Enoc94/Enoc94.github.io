@@ -30,19 +30,19 @@ header p {
 
 .jumbotron {
   display: flex;
-  align-items: baseline;
+  align-items: center;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/jumbotron.jpg');
   background-size: cover;
-  color: #000000;
+  color: #ffffff;
   height: 500px;
-  
+  text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
 .jumbotron h2 {
   font-size: 60px;
   font-weight: 700;
   margin: 0;
-  color: #cc9900;
-  text-shadow: 2px 2px 2px #000000;
+  color: #fff;
 }
 
 .jumbotron h3 {
@@ -52,13 +52,7 @@ header p {
 
 section .row img {
   margin: 0 0 30px;
-  width: 500px;
-  height: 350px;
-}
-
-section .row {
-  text-align: center;
-  font-size: 30px;
+  width: 100%;
 }
 
 .col-md-6 {
@@ -68,14 +62,14 @@ section .row {
 .btn.btn-primary {
   border-radius: 2px;
   border: 0px;
-  color: #ffffff;
+  color: #fbd1d5;
   text-shadow: none;
-  background-color: #0000cc;
+  background-color: #ffffff;
 }
 
 .btn.btn-primary:hover {
-  color: #0000cc;
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #fbd1d5;
 }
 
 .btn-secondary {
