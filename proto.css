@@ -54,6 +54,8 @@ section .row img {
   margin: 0 0 30px;
   width: 500px;
   height: 350px;
+  border-style: ridge;
+  border-width: 10px;
 }
 
 section .row {
