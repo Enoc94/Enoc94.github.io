@@ -31,10 +31,10 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
+  background-image: url('quienes_somos_image2.jpg');   
   background-size: cover;
   color: #000000;
-  height: 500px;
-  
+  height: 700px;
 }
 
 .jumbotron h2 {
@@ -47,6 +47,10 @@ header p {
 
 .jumbotron p {
   text-align: justify;
+  font-size: 25px;
+  font-weight: 500;
+  color: #000000;
+  text-shadow: 0.5px 0.5px 0.5px #ffffff;
 }
 
 section .row img {
