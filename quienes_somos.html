@@ -9,30 +9,33 @@
   <link rel="stylesheet" type="text/css" href="quienes_somos.css">
 </head>
 <body>
-	<header class="container">
-    <div class="row">
-      <h1 class="col-sm-4">
-        ELECTRODEPOSITO
-      </h1>
-      <nav class="col-sm-8 text-right">
-        <p>
-          <a href="index.html">Inicio</a>
-        </p>
-        <p>
-          <a href="quienes_somos.html">Quienes Somos</a>
-        </p>
-        <p>
-          <a href="#">Productos</a> 
-        </p>
-        <p>
-          <a href="#">Servicios</a>
-        </p>
-        <p>
-          <a href="#">Contáctenos</a>
-        </p>
-      </nav>
+<nav class="navbar navbar-fixed-top navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand">ELECTRODEPOSITO</a>
     </div>
-  </header>
+    <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Inicio</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Quienes Somos <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="quienes_somos.html">Visión</a></li>
+            <li><a href="quienes_somos.html">Misión</a></li>  
+          </ul>
+        </li>
+        <li><a href="#">Productos</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Contáctenos</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 	<section class="jumbotron">
 		<div class="container">
 			<div class="row text-center">
