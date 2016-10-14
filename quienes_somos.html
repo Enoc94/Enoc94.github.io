@@ -6,36 +6,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="quienes_somos.css">
 </head>
 <body>
-<nav class="navbar navbar-fixed-top navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand">ELECTRODEPOSITO</a>
+	<nav class="navbar navbar-fixed-top navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand">ELECTRODEPOSITO</a>
+      </div>
+      <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Inicio</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Quienes Somos <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="quienes_somos.html">Visión</a></li>
+              <li><a href="quienes_somos.html#mision">Misión</a></li>  
+            </ul>
+          </li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Contáctenos</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="collapse navbar-collapse navbar-right" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Inicio</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Quienes Somos <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="quienes_somos.html">Visión</a></li>
-            <li><a href="quienes_somos.html">Misión</a></li>  
-          </ul>
-        </li>
-        <li><a href="#">Productos</a></li>
-        <li><a href="#">Servicios</a></li>
-        <li><a href="#">Contáctenos</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+  </nav>
 	<section class="jumbotron">
 		<div class="container">
 			<div class="row text-center">
@@ -46,7 +48,7 @@
 		    	La visión de la empresa es que en todo el país se transforme la matriz energética comenzando por el área de consumo de energía mediante la sustitución de las lámparas tradicionales por tecnología LED  y otras tecnologías modernas orientadas hacia a un ahorro energético en pro de un mayor desarrollo sostenible y costos disminuidos en la factura eléctrica para cada clientes; y que cada desarrollador grande o pequeño pueda obtener sus equipos de medición y de transformación de energía que pueda asegurar una calidad impecable de la energía.
 		    </p>
 		    <h2>
-		    	Misión
+		    	<a name="mision"></a> Misión
 		    </h2>
 		    <p>
 		    	La misión de la empresa es lograr la fusión entre la elegancia, el ahorro, la simplicidad y la economía a través nuestra gama de productos certificados de calidad internacional en el área del ahorro de energía y productos normalizados de acuerdo a las normas del sector eléctrico; y pronta asesoría para cada uno de nuestros clientes correspondiente a la eficiencia y el ahorro energético.
