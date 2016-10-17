@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  padding-top: 75px;
+  padding-top: 55px;
 }
 
 header {
@@ -33,10 +33,10 @@ header p {
 .jumbotron {
 	display: flex;
   align-items: center;
-  background-image: url('index_image.jpg');
+  background-image: url('quienes_somos_image2.jpg');
   background-size: cover;
   color: #ffffff;
-  height: 500px;
+  height: 600px;
   text-shadow: 1.25px 1.25px 1.25px #000000;
 }
 
