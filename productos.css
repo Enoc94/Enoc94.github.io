@@ -90,6 +90,7 @@ section .row {
 
 footer {
   font-size: 12px;
+  padding: 20px 0;
 }
 
 footer .col-sm-8 {
