@@ -27,37 +27,37 @@ header nav {
 header p {
   padding: 0 20px;
   margin: 0;
+
 }
 
 .jumbotron {
-  display: flex;
+	display: flex;
   align-items: center;
-  background-image: url('index_image.jpg');   
+  background-image: url('quienes_somos_image2.jpg');
   background-size: cover;
-  color: #000000;
-  height: 560px;
+  color: #ffffff;
+  height: 600px;
+  text-shadow: 1.25px 1.25px 1.25px #000000;
 }
 
 .jumbotron h2 {
-  font-size: 55px;
+  font-size: 60px;
   font-weight: 700;
   margin: 0;
-  color: #cc9900;
-  text-shadow: 2px 2px 2px #000000;
+  color: #fff;
 }
 
 .jumbotron h3 {
-  text-align: justify;
-  font-size: 25px;
-  font-weight: 500;
-  color: #000000;
-  text-shadow: 1.5px 1.5px 1.5px #ffffff;
+  margin: 0 0 20px;
+  color: #fff;
 }
 
 section .row img {
   margin: 0 0 30px;
-  width: 500px;
-  height: 350px;
+  width: 100%;
+  height: auto;
+  border-style: double;
+  border-width: 10px;
 }
 
 section .row {
@@ -90,6 +90,7 @@ section .row {
 
 footer {
   font-size: 12px;
+  padding: 20px 0;
 }
 
 footer .col-sm-8 {
