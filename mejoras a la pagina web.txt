@@ -1,0 +1,16 @@
+que la vision y mision sean un solo link
+
+agregar mas informacion con respecto a los productos y servicios
+
+que la imagen de fondo de inicio pueda reducirse mejor para el acceso desde un movil
+
+permitir que al seleccionar alguna de las imagenes como por ejemplo la de los medidores
+se pueda acceder a los diferentes medidores
+
+agregar mas inforacion para que pueda volverser mas internacional la pagina
+
+agregar el mapa con el marcador de donde estaria la empresa
+
+agregar los links de los catalogos de IUSA y de EBCHQ
+
+agregar ventana para que nos contacten por un mensaje
