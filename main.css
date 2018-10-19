@@ -33,7 +33,13 @@ header p {
 .jumbotron {
 	display: flex;
   align-items: center;
-  background-image: url('quienes_somos_image2.jpg');
+  background-image: url('principal.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed; 
+  -webkit-background-size:cover;
+  -moz-background-size:cover
+  -o-background-size:cover
   background-size: cover;
   color: #ffffff;
   height: 600px;
