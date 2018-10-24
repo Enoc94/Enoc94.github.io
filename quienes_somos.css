@@ -48,7 +48,7 @@ header p {
   font-size: 55px;
   font-weight: 700;
   margin: 0;
-  color: #cc9900;
+  color: #ffd700;
   text-shadow: 2px 2px 2px #000000;
 }
 
@@ -56,8 +56,8 @@ header p {
   text-align: justify;
   font-size: 4.8vmin;
   font-weight: 500;
-  color: #000000;
-  text-shadow: 1.5px 1.5px 1.5px #ffffff;
+  color: #FEFEFE;
+  text-shadow: 1px 1px 1px #000000;
 }
 
 section .row img {

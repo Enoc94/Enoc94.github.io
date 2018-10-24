@@ -78,14 +78,14 @@ section .row {
 .btn.btn-primary {
   border-radius: 2px;
   border: 0px;
-  color: #ffffff;
+  color: #000000;
   text-shadow: none;
-  background-color: #0000cc;
+  background-color: #ffd700;
 }
 
 .btn.btn-primary:hover {
-  color: #0000cc;
-  background-color: #ffffff;
+  color: #ffd700;
+  background-color: #000000;
 }
 
 .btn-secondary {
